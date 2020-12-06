@@ -1,0 +1,28 @@
+{
+  "name": "usernamecheck",
+  "version": "1.0.0",
+  "description": "A node module for checking availability of usernames across multiple websites",
+  "main": "src/usernamecheck.js",
+  "scripts": {},
+  "files": [
+    "package.json",
+    "LICENSE",
+    "README.md",
+    "src/usernamecheck.js",
+    "src/usernamecheck.d.ts"
+  ],
+  "typings": "src/usernamecheck.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianofinco/usernamecheck-api.git"
+  },
+  "author": "Adriano Lourenço",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adrianofinco/usernamecheck-api/issues"
+  },
+  "homepage": "https://github.com/adrianofinco/usernamecheck-api#readme",
+  "dependencies": {
+    "axios": "^0.21.0"
+  }
+}
