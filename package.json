@@ -1,9 +1,17 @@
 {
-  "name": "usernamecheck-api",
-  "version": "0.0.0",
-  "description": "A command line implementation of usernamecheck",
+  "name": "usernamecheck",
+  "version": "1.0.0",
+  "description": "A node module for checking availability of usernames across multiple websites",
   "main": "src/usernamecheck.js",
   "scripts": {},
+  "files": [
+    "package.json",
+    "LICENSE",
+    "README.md",
+    "src/usernamecheck.js",
+    "src/usernamecheck.d.ts"
+  ],
+  "typings": "src/usernamecheck.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/adrianofinco/usernamecheck-api.git"
