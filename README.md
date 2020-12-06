@@ -1,11 +1,11 @@
 # usernamecheck
 A node module for checking availability of usernames across multiple websites
 
-[![License](https://img.shields.io/github/license/adrianofinco/usernamecheck)](LICENSE.txt)
+[![License](https://img.shields.io/github/license/adrianofinco/usernamecheck)](LICENSE)
 [![Version](https://img.shields.io/npm/v/usernamecheck)](https://www.npmjs.com/package/usernamecheck)
 [![Bundle size](https://img.shields.io/bundlephobia/minzip/usernamecheck)](https://www.npmjs.com/package/usernamecheck)
 [![Issues](https://img.shields.io/github/issues/adrianofinco/usernamecheck)](https://github.com/adrianofinco/usernamecheck-cli/issues)
-![Axios depedency](https://img.shields.io/github/package-json/dependency-version/adrianofinco/usernamecheck/axios)
+[![Axios depedency](https://img.shields.io/github/package-json/dependency-version/adrianofinco/usernamecheck/axios)](package.json)
 
 ## Usage
 Install package
@@ -16,8 +16,6 @@ npm install usernamecheck
 Check user in a website
 ```js
 const { listWebsites, isUsernameAvailable } = require('usernamecheck')
-
-console.log(listWebsites()) //=> Array of available websites
 
 isUsernameAvailable('octocat', 'github').then(val => {
     console.log(val) //=> true
