@@ -1,9 +1,11 @@
-# usernamecheck-api
+# usernamecheck
 A node module for checking availability of usernames across multiple websites
 
-[![License](https://img.shields.io/github/license/adrianofinco/usernamecheck-api)](LICENSE.txt)
-![Version](https://img.shields.io/github/package-json/version/adrianofinco/usernamecheck-api)
-[![Issues](https://img.shields.io/github/issues/adrianofinco/usernamecheck-api)](https://github.com/adrianofinco/usernamecheck-api/issues)
+[![License](https://img.shields.io/github/license/adrianofinco/usernamecheck-cli)](LICENSE.txt)
+[![Version](https://img.shields.io/npm/v/usernamecheck)](https://www.npmjs.com/package/usernamecheck)
+[![Bundle size](https://img.shields.io/bundlephobia/minzip/usernamecheck)](https://www.npmjs.com/package/usernamecheck)
+[![Issues](https://img.shields.io/github/issues/adrianofinco/usernamecheck-cli)](https://github.com/adrianofinco/usernamecheck-cli/issues)
+
 
 ## Supported websites
 - [x] Facebook
