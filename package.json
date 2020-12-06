@@ -1,0 +1,20 @@
+{
+  "name": "usernamecheck-api",
+  "version": "0.0.0",
+  "description": "A command line implementation of usernamecheck",
+  "main": "src/usernamecheck.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianofinco/usernamecheck-api.git"
+  },
+  "author": "Adriano Lourenço",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adrianofinco/usernamecheck-api/issues"
+  },
+  "homepage": "https://github.com/adrianofinco/usernamecheck-api#readme",
+  "dependencies": {
+    "axios": "^0.21.0"
+  }
+}
